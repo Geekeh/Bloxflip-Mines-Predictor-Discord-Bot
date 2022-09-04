@@ -5,7 +5,7 @@
 ## Features and Usage
 .mines (round_id)\
 bar on side of embed changes colors ig\
-chance displayed on embed completely random though 🤷\
+chance displayed on embed completely random though\
 
 ## Coming Soon
 custom amount of bombs\
