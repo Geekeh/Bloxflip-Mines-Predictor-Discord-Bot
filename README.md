@@ -2,12 +2,12 @@
 
 ![image](https://user-images.githubusercontent.com/98252854/188293590-e06cf5df-64a1-4d41-b2c0-ae90f62e51a7.png)
 
-## Features and Usage
+## 📝Features and Usage
 .mines (round_id)\
 bar on side of embed changes colors ig\
 chance displayed on embed completely random though 🤷‍♂️
 
-## Install all the stuff
+## ⚙️Install all the stuff
 just run\
 pip install discord.py   or\
 pip install discord   idk which one
