@@ -11,4 +11,4 @@ chance displayed on embed completely random though 🤷</p>
 <p>custom amount of bombs<br>
 ### join dah server<br>
 <p>https://discord.gg/epb76N5t3M<br>
-<p>## completely random mines predictor bot you could sell i dont care<br>
+<p> ## completely random mines predictor bot you could sell i dont care<br>
