@@ -8,7 +8,7 @@ bar on side of embed changes colors ig\
 chance displayed on embed completely random though 🤷‍♂️
 
 ## Coming Soon
-custom amount of bombs\
+custom amount of bombs
 ### join dah server
 https://discord.gg/epb76N5t3M\
 ## completely random mines predictor bot you could sell i dont care\
