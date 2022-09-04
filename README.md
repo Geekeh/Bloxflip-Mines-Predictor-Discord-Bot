@@ -4,8 +4,8 @@
 
 ## Features and Usage
 <p>.mines (round_id)<br>
-bar on side of embed changes colors ig<\p>
-chance displayed on embed completely random though 🤷<\p>
+bar on side of embed changes colors ig</p>
+chance displayed on embed completely random though 🤷</p>
 
 ## Coming Soon
 <p>custom amount of bombs<br>
