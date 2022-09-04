@@ -7,6 +7,11 @@
 bar on side of embed changes colors ig\
 chance displayed on embed completely random though 🤷‍♂️
 
+## Install all the stuff
+just run\
+pip install discord.py   or\
+pip install discord   idk which one
+
 ## Coming Soon
 custom amount of bombs
 ### join dah server
