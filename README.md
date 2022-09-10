@@ -18,4 +18,4 @@ custom amount of bombs
 ### join dah server
 https://discord.gg/jpd
 ## completely random towers predictor bot you could NOT SELL IT.
-### if u repost or distribute with no credits im prob gonna take down
+### if u repost or distribute with no credits im prob gonna take down.
