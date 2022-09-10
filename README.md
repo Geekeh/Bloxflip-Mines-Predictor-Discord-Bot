@@ -17,4 +17,5 @@ pip install discord   idk which one
 custom amount of bombs
 ### join dah server
 https://discord.gg/jpd
-## completely random mines predictor bot you could sell i dont care\
+## completely random towers predictor bot you could sell i dont care just dont say its urs\
+if u repost or distribute with no credits im prob gonna take down
