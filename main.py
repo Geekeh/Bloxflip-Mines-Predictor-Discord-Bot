@@ -80,4 +80,4 @@ async def mines(ctx, round_id):
         await ctx.reply(embed=em)
 
 
-bot.run("Your bot token here")
+bot.run("MTAyMTg0NjIwNTA5MDc2MjgyMw.G7WsDC.4Cu1RfZ16Tyk0m8yun6QP-K3o2VlGdVvmsSBDw")
