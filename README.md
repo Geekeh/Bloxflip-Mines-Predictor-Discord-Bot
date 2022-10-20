@@ -16,7 +16,7 @@ pip install discord   idk which one
 ## Coming Soon
 custom amount of bombs
 ### join dah server
-https://discord.gg/jpd
+discord.gg/juicy
 ## completely random mines predictor bot DO NOT SELL IT.
 #### if u repost or distribute with no credits im prob gonna take down.
 
