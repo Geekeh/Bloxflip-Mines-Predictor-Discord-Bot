@@ -1,20 +1,17 @@
 # Bloxflip-Mines-Predictor-Discord-Bot
 
-![image](https://user-images.githubusercontent.com/98252854/188293590-e06cf5df-64a1-4d41-b2c0-ae90f62e51a7.png)
+![image](https://user-images.githubusercontent.com/98252854/201429663-eadbdf7f-1983-49f4-ae8f-29e7657b3fd9.png)
 
 ## 📝Features and Usage
-.mines (round_id)\
-bar on side of embed changes colors ig\
+./mines (tile_amt) (round_id)\
 chance displayed on embed completely random though 🤷‍♂️
 
 ## ⚙️Install all the stuff
 Put your discord bot token at the bottom\
 just run\
-pip install discord.py   or\
-pip install discord   idk which one
+pip install discord
 
-## Coming Soon
-custom amount of bombs
+
 ### join dah server
 https://discord.gg/juicy
 ## completely random mines predictor bot DO NOT SELL IT.
