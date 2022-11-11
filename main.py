@@ -18,7 +18,7 @@ class aclient(discord.Client):
 client = aclient()
 tree = app_commands.CommandTree(client)
 
-@tree.command(name = 'mines', description='mines game mode') #guild specific slash command
+@tree.command(name = 'mines', description='mines game mode')
 async def mines(interaction: discord.Interaction, tile_amt: int, round_id : str):
     if len(round_id) == 36:
         grid = ['❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌']
