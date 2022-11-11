@@ -33,9 +33,10 @@ async def mines(interaction: discord.Interaction, tile_amt: int, round_id : str)
             grid[a] = '✅'
             count += 1
         
+        chance = random.randint(45,95)
         em = discord.Embed(color=0x0025ff)
         em.add_field(name='Grid', value="\n" +grid[0]+grid[1]+grid[2]+grid[3]+grid[4]+"\n"+grid[5]+grid[6]+grid[7]+grid[8]+grid[9]+"\n"+grid[10]+grid[11]+grid[12]+grid[13]+grid[14]+"\n"+grid[15]+grid[16]+grid[17] \
-            +grid[18]+grid[19]+"\n"+grid[20]+grid[21]+grid[22]+grid[23]+grid[24])
+            +grid[18]+grid[19]+"\n"+grid[20]+grid[21]+grid[22]+grid[23]+grid[24] + "\n" + f"Chance: {chance}")
         await interaction.response.send_message(embed=em)
     else:
         em = discord.Embed(color=0xff0000)
