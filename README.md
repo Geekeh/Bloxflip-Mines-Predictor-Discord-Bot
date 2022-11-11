@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/98252854/201429663-eadbdf7f-1983-49f4-ae8f-29e7657b3fd9.png)
 
 ## 📝Features and Usage
-./mines (tile_amt) (round_id)\
+/mines (tile_amt) (round_id)\
 chance displayed on embed completely random though 🤷‍♂️
 
 ## ⚙️Install all the stuff
