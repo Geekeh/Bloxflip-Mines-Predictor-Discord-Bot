@@ -12,8 +12,6 @@ chance displayed on embed completely random though 🤷‍♂️
 > run the python file
 
 
-### join dah server
-https://discord.gg/juicy
 ## completely random mines predictor bot DO NOT SELL IT.
 #### if u repost or distribute with no credits im prob gonna take down.
 
