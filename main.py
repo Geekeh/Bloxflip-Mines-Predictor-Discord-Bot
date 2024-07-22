@@ -1,9 +1,14 @@
 import discord
 import time
-from discord import app_commands 
+from discord import app_commands
 import random
+from dotenv import load_dotenv
+import os
 
-# https://github.com/Digiwind/Digiwind-Videos/blob/main/DPY%20Slash%20Commands.py for slash command template
+# Load environment variables from .env file
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
+
 class aclient(discord.Client):
     def __init__(self):
         super().__init__(intents = discord.Intents.default())
@@ -19,11 +24,11 @@ class aclient(discord.Client):
 client = aclient()
 tree = app_commands.CommandTree(client)
 
-@tree.command(name = 'mines', description='mines game mode')
-async def mines(interaction: discord.Interaction, tile_amt: int, round_id : str):
+@tree.command(name='mines', description='mines game mode')
+async def mines(interaction: discord.Interaction, tile_amt: int, round_id: str):
     if len(round_id) == 36:
         start_time = time.time()
-        grid = ['❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌','❌']
+        grid = ['❌'] * 25
         already_used = []
 
         count = 0
@@ -35,13 +40,13 @@ async def mines(interaction: discord.Interaction, tile_amt: int, round_id : str)
             grid[a] = '✅'
             count += 1
         
-        chance = random.randint(45,95)
+        chance = random.randint(45, 95)
         if tile_amt < 4:
-            chance = chance - 15
+            chance -= 15
 
         em = discord.Embed(color=0x0025ff)
-        em.add_field(name='Grid', value="\n" + "```"+grid[0]+grid[1]+grid[2]+grid[3]+grid[4]+"\n"+grid[5]+grid[6]+grid[7]+grid[8]+grid[9]+"\n"+grid[10]+grid[11]+grid[12]+grid[13]+grid[14]+"\n"+grid[15]+grid[16]+grid[17] \
-            +grid[18]+grid[19]+"\n"+grid[20]+grid[21]+grid[22]+grid[23]+grid[24] + "```\n" + f"**Accuracy**\n```{chance}%```\n**Round ID**\n```{round_id}```\n**Response Time:**\n```{str(int(time.time() - int(start_time)))}```")
+        grid_str = "\n" + "\n".join(["".join(grid[i:i+5]) for i in range(0, 25, 5)]) + f"\n\n**Accuracy**\n{chance}%\n**Round ID**\n{round_id}\n**Response Time:**\n{str(int(time.time() - int(start_time)))}"
+        em.add_field(name='Grid', value=grid_str)
         em.set_footer(text='made by geek')
         await interaction.response.send_message(embed=em)
     else:
@@ -49,4 +54,4 @@ async def mines(interaction: discord.Interaction, tile_amt: int, round_id : str)
         em.add_field(name='Error', value="Invalid round id")
         await interaction.response.send_message(embed=em)
 
-client.run('bot token')
+client.run(TOKEN)
